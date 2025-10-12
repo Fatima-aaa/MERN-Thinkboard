@@ -3,7 +3,7 @@ import React from 'react'
 const Note = () => {
   return (
     <div>
-      jjj
+      note
     </div>
   )
 }

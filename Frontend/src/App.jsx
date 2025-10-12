@@ -8,7 +8,6 @@ import toast from 'react-hot-toast'
 const App = () => {
   return (
     < div data-theme="cupcake">
-      <button className="btn btn-primary" onClick={() => toast.success('Hello World!')}>Show Toast</button>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/note/:id' element={<Note />} />
